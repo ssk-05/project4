@@ -1,0 +1,23 @@
+<div class="container bg-light py-4">
+  <h1 class="display-5 fw-bold">Welcome to Online Test</h1>
+  <p class="col-md-8 fs-3">This is an Online Aptitude test</p>
+  <h4>Instructions:</h4>
+  <ol>
+    <li>Total number of questions : 20</li>
+    <li>Time alloted : 30 minutes.</li>
+    <li>Each question carry 1 mark, no negative marks</li>
+    <li>DO NOT refresh the page</li>
+  </ol>
+  <h1 style="font-family: cursive; text-align: center">All the best :-)</h1>
+  <div class="name col-md-4 my-3">
+    <label for="">Enter your name</label>
+    <input #name type="text" class="form-control" />
+  </div>
+  <button
+    class="btn btn-primary btn-lg"
+    routerLink="/question"
+    (click)="(startQuiz)"
+  >
+    Start the quiz
+  </button>
+</div>
